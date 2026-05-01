@@ -32,17 +32,19 @@ O HelpDesk é um sistema robusto para ambientes corporativos, permitindo **contr
 
 ## Como Executar
 
-### Pré-requisitos
+### Pré-requisitos:
 - Docker e Docker Compose  
-- Git  
+- Git
 
-### Rodando o projeto localmente
-#### Clonar o repositório
+ ---
+
+## Rodando o projeto localmente
+
+### Clonar o repositório:
 git clone https://github.com/GabrielTakii-Main/HelpDesk.git
 cd HelpDesk
 
-
-### Subir containers
+### Subir containers:
 docker-compose up --build
 
 Backend: http://localhost:8000
@@ -50,7 +52,7 @@ Backend: http://localhost:8000
 Frontend: http://localhost:3000
 
 
-#### Executando Testes
+### Executando Testes:
 ```bash
 Backend
 cd backend

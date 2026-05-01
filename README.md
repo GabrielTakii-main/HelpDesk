@@ -41,7 +41,6 @@ O HelpDesk é um sistema robusto para ambientes corporativos, permitindo **contr
 git clone https://github.com/GabrielTakii-Main/HelpDesk.git
 cd HelpDesk
 
----
 
 ### Subir containers
 docker-compose up --build
@@ -50,7 +49,6 @@ Backend: http://localhost:8000
 
 Frontend: http://localhost:3000
 
----
 
 ### Executando Testes
 ```bash

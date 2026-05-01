@@ -50,13 +50,13 @@ Backend: http://localhost:8000
 Frontend: http://localhost:3000
 
 
-### Executando Testes
+#### Executando Testes
 ```bash
-# Backend
+Backend
 cd backend
 pytest
 
-# Frontend
+Frontend
 cd frontend
 npm install
 npm test

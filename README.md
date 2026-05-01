@@ -3,7 +3,9 @@ Plataforma corporativa de gestão de chamados com SLA, dashboards e notificaçõ
 
 O HelpDesk é um sistema robusto para ambientes corporativos, permitindo **controle avançado de chamados**, workflow inteligente, métricas de SLA, dashboards interativos, notificações automáticas e segurança reforçada.
 
-## Stack Tecnológica
+---
+
+## Tecnologias Utilizadas
 
 - **Backend:** Django + Django REST Framework  
 - **Frontend:** React  
@@ -11,7 +13,9 @@ O HelpDesk é um sistema robusto para ambientes corporativos, permitindo **contr
 - **Containerização:** Docker + Docker Compose  
 - **CI/CD:** GitHub Actions (build, testes, deploy)  
 - **Monitoramento:** Prometheus e Grafana  
-- **Segurança:** JWT, OAuth2, proteção CSRF, XSS e SQL Injection  
+- **Segurança:** JWT, OAuth2, proteção CSRF, XSS e SQL Injection
+ 
+---
 
 ## Funcionalidades
 
@@ -22,7 +26,9 @@ O HelpDesk é um sistema robusto para ambientes corporativos, permitindo **contr
 - Logs estruturados e monitoramento com alertas em tempo real  
 - Testes automatizados: unitários, integração e end-to-end (E2E)  
 - CI/CD completo para build, testes e deploy  
-- Arquitetura modular/microservices para escalabilidade futura  
+- Arquitetura modular/microservices para escalabilidade futura
+
+---
 
 ## Como Executar
 
@@ -31,21 +37,23 @@ O HelpDesk é um sistema robusto para ambientes corporativos, permitindo **contr
 - Git  
 
 ### Rodando o projeto localmente
-```bash
-# Clonar o repositório
+#### Clonar o repositório
 git clone https://github.com/GabrielTakii-Main/HelpDesk.git
 cd HelpDesk
 
-# Subir containers
+---
+
+### Subir containers
 docker-compose up --build
 
 Backend: http://localhost:8000
 
 Frontend: http://localhost:3000
 
+---
 
-Executando Testes
-
+### Executando Testes
+```bash
 # Backend
 cd backend
 pytest
@@ -54,11 +62,12 @@ pytest
 cd frontend
 npm install
 npm test
-
+```
 > Todos os testes devem passar antes de merge na branch main.
 
+---
 
-Roadmap & Evolução Concluída
+## Roadmap & Evolução Concluída
 
 Microservices: chamados, usuários, notificações
 
@@ -72,12 +81,14 @@ Segurança robusta implementada: JWT, OAuth2, CSRF, XSS, SQL Injection
 
 CI/CD completo com build, testes e deploy automático
 
+---
 
-Contribuição
+## Contribuição
 
 Pull requests são bem-vindos. Para mudanças significativas, abra uma issue primeiro para discutir.
 
+---
 
-License
+## License
 
 Este projeto está licenciado sob a licença MIT.
